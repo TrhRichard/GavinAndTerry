@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "gavinandterry",
+	"version": "${version}",
+	"name": "Gavin And Terry",
+	"description": "A silly mod that adds a few cats as blocks",
+	"authors": [
+		"TrhRichard"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/gavin-and-terry"
+	},
+	"license": "ARR",
+	"icon": "assets/gavinandterry/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "me.trhrichard.GavinAndTerry",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "me.trhrichard.GavinAndTerryDataGenerator",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"gavinandterry.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "1.20.x",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.20"
+	},
+	"suggests": {}
+}

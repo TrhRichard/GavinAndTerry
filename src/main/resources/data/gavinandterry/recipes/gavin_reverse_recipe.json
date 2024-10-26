@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "gavinandterry:gavin"
+        }
+    ],
+    "result": {
+        "item": "minecraft:netherite_block",
+        "count": 9
+    }
+}
